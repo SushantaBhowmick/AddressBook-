@@ -6,7 +6,7 @@
 body{
     min-height: 100vh;
     width:100% ;
-    background-image:url('/images/bg/bg1.jpg');
+    background-image:url('/images/bg/bg1.jpg') ;
     /* background-color: rgb(26, 95, 95); */
     background-position: center;
     background-size: cover;
@@ -23,21 +23,6 @@ body{
     top: 200px;
 }
 a.button {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    top: 300px;
-    left: 680px;
-    width: 12%;
-    border: 2px solid green;
-    text-decoration: none;
-    padding: 13px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 10px gray;
-    background-color: rgb(66, 219, 66); */
-
     display: flex;
     justify-content: center;
     padding: 1em;
