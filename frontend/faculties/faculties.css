@@ -12,6 +12,16 @@
     display: flex;
     /* font-family: 'Lobster', cursive; */
   }
+  body{
+    min-height: 100vh;
+    width:100% ;
+    background-image:url('/images/bg/bg1.jpg') ;
+    /* background-color: rgb(26, 95, 95); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
 
   h1{
       position: absolute;
@@ -54,7 +64,39 @@
     padding-bottom: 10px;
     text-decoration: none;
    font-size: 1.2em;
+   color: whitesmoke;
   }
   .department li{
     padding-bottom: 20px;
+<<<<<<< HEAD:welcome/faculties/faculties.css
   }
+=======
+  }
+
+  .container{
+    position: absolute;
+    top: 30px;
+    right: 58px;
+    border: 2px solid green;
+    padding: 11px 31px;
+    border-radius: 25px;
+    background-color: green;
+    cursor: pointer;
+   
+  }
+
+.container a{
+  color: white;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.container:hover{
+  background-color: gray;
+}
+
+.container a:hover{
+  color: black;
+
+}
+>>>>>>> 2a0f7f79cb05bcb1fcf1aff5c725d1dd48af8864:frontend/faculties/faculties.css
