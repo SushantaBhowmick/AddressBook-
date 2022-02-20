@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    width:100% ;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url('/images/bg/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#main{
+
+    width: 1360px;
+    margin: auto;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 800px;
+    margin:  0 auto 100px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header h1{
+    padding-bottom: 40px;
+    font-size: 2em;
+}
+#header h2{
+    padding: 20px;
+    text-align: left;
+    padding-left: 55px;
+}
+.info label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.info .form{
+    padding: 25px;
+
+}
+.info .form input{
+    padding: 10px;
+
+}
+.info .form1{
+    padding: 25px;
+
+}
+.info .form1 input{
+    padding: 10px;
+
+}
+.email{
+    padding: 10px;
+
+}
+.info .email input{
+    padding: 10px;
+}
