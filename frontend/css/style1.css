@@ -22,7 +22,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background-image: url("/images/bg/bg1.jpg");
 }
 
 
@@ -33,7 +33,7 @@ body {
     border: none;
     outline: none;
     color: #fff;
-    background: #111;
+    background: rgb(223, 211, 211);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -58,7 +58,7 @@ body {
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: rgb(234, 236, 216)
 }
 
 .glow-on-hover:active:after {
