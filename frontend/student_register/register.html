@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,35 +9,58 @@
     <link rel="stylesheet" href="registerd.css">
     <title>Register form</title>
 </head>
+
 <body>
     <section id="main">
         <div id="header">
-        <h1>Student Information Collection Form</h1>
-        <hr>
-        <h2>General Information</h2>
-        <hr>
-    </div>
-<div class="info">
-        <form action="" class="form">
-            <label for="">Student Name</label>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Middle Name">
-            <input type="text" placeholder="Last Name">
-        </form>
-        <form action="" class="form1">
-            <label for="">Father's Name</label>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Middle Name">
-            <input type="text" placeholder="Last Name">
-        </form>
-        <form action="" class="email">
-        <Label>Email Address</Label>
-        <input type="email" placeholder="Enter your email">
-    </form>
-    </div>
-<div class="info2">
+            <h1>Student Information Collection Form</h1>
+            <hr>
+            <h2>General Information</h2>
+            <hr>
+        </div>
+        <div class="info">
+            <form action="" class="form">
+                <label for="">Student Name</label>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Last Name">
+            </form>
+            <form action="" class="form1">
+                <label for="">Father's Name</label>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Middle Name">
+                <input type="text" placeholder="Last Name">
+            </form>
+            <form action="" class="email">
+                <Label>Email Address</Label>
+                <input type="email" placeholder="Enter your email">
+                <label for="">Contact No</label>
+                <input type="text" placeholder="Enter Valid Phone no ">
+            </form>
 
-</div>
+            <!-- birth date  -->
+            <form class = "container">
+                <label >birthday : <span>*</span></label>
+                <SELECT id ="year" name = "yyyy" onchange="change_year(this)">
+                </SELECT>
+                <SELECT  id ="month" name = "mm" onchange="change_month(this)">
+                </SELECT>
+                <SELECT id ="day" name = "dd" >
+                </SELECT>
+              <br />
+              <br />
+              <label >birthday : <span>*</span></label>
+                <input id ="input_year" class="date" name = "year" patren="[\d]{4}" />
+                <SELECT  id ="month2" name = "month" >
+                </SELECT>
+                <input id ="input_day" class="date" name = "day" patrin="[\d]{2}"/>
+            </form>
+        </div>
+
+        <div class="info2">
+
+        </div>
     </section>
 </body>
+<script src="register.js"></script>
 </html>

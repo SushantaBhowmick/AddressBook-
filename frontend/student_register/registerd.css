@@ -13,8 +13,8 @@ body{
 }
 
 #main{
-
     width: 1360px;
+    height:2000px;
     margin: auto;
     top: 20px;
     position: relative;
@@ -56,9 +56,23 @@ body{
 
 }
 .email{
-    padding: 10px;
+    position: absolute;
+    left: 53px;
+    padding: 5px;
 
 }
 .info .email input{
     padding: 10px;
 }
+
+/* birthdate css */
+.container{
+    padding: 15px;
+  }
+  SELECT{
+    padding: 5px;
+  }
+  input.date{
+    width:50px;
+    padding: 5px;
+  }
