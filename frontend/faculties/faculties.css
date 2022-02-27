@@ -10,13 +10,11 @@
     min-height: 100vh;
     background-color: rgba(226, 226, 191, 0.5);
     display: flex;
-    /* font-family: 'Lobster', cursive; */
   }
   body{
     min-height: 100vh;
     width:100% ;
     background-image:url('/images/bg/bg1.jpg') ;
-    /* background-color: rgb(26, 95, 95); */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -29,8 +27,6 @@
       left: 166px;
       font-size: 3.5em;
       cursor: pointer;
-
-
   }
 
   .department h2{
@@ -49,8 +45,6 @@
     font-size: 2em;
     padding: 80px 180px;
     border-radius: 10px;
-    /* padding-bottom: 10px; */
-
   }
   .department ul li{
     padding: 10px 69px;
@@ -58,7 +52,6 @@
     border-radius: 27px;
     list-style: none;
     cursor: pointer;
-
   }
   .department ul li a{
     padding-bottom: 10px;
@@ -68,11 +61,7 @@
   }
   .department li{
     padding-bottom: 20px;
-<<<<<<< HEAD:welcome/faculties/faculties.css
   }
-=======
-  }
-
   .container{
     position: absolute;
     top: 30px;
@@ -82,7 +71,6 @@
     border-radius: 25px;
     background-color: green;
     cursor: pointer;
-   
   }
 
 .container a{
@@ -99,4 +87,4 @@
   color: black;
 
 }
->>>>>>> 2a0f7f79cb05bcb1fcf1aff5c725d1dd48af8864:frontend/faculties/faculties.css
+

@@ -8,9 +8,13 @@ html {
 }
 body {
   min-height: 100vh;
-  background-color: rgba(226, 226, 191, 0.5);
+  background-color: rgba(221, 235, 154, 0.5);
   display: flex;
-  /* font-family: 'Lobster', cursive; */
+  background-image: url("/images//bg/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 
 h1{
@@ -19,8 +23,6 @@ h1{
     left: 166px;
     font-size: 3.5em;
     cursor: pointer;
-
-
 }
 
 .department h2{
@@ -29,6 +31,7 @@ h1{
     left: 217px;
     font-size: 1.7em;
     cursor: pointer;
+    color: whitesmoke;
 }
 
 .department{
@@ -54,6 +57,7 @@ h1{
   padding-bottom: 10px;
   text-decoration: none;
  font-size: 1.2em;
+ color: white;
 }
 .department li{
   padding-bottom: 20px;

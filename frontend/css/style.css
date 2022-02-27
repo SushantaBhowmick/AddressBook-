@@ -28,6 +28,7 @@
 	float:left;
 	list-style:none;
 	font-size:17px;
+	list-style: none;
 }
 
 .menu li:last-child {
@@ -38,17 +39,23 @@
 	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
 	color:#777;
 	transition:color linear 0.15s;
+	
 }
 
 .menu a:hover, .menu .current-item a {
 	text-decoration:none;
 	color:#66a992;
 }
+.menu ul li a{
+	list-style: none;
+}
 
 /*----- Search -----*/
 .search-form {
 	/* float:right; */
 	display:inline-block;
+	position: absolute;
+	left: 69%;
 }
 
 .search-form input {

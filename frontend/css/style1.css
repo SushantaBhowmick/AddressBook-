@@ -8,6 +8,7 @@ h3{
     position: relative;
     top: -50px;
     left: 0px;
+    font-size: 25px;
 }
 #container div button a{
     text-decoration: none;
@@ -23,8 +24,10 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("/images/bg/bg1.jpg");
+    background-size: cover;
+    position: relative;
+    color: white;
 }
-
 
 .glow-on-hover {
     width: 220px;
