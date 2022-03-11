@@ -76,3 +76,17 @@ body{
     width:50px;
     padding: 5px;
   }
+  form .contact{
+      position: relative;
+      padding-left: 30px;
+  }
+
+.bir{
+    position: relative;
+    margin-left: -48px;
+}
+
+.reg{
+    position: relative;
+    margin-left: -219px;
+}
