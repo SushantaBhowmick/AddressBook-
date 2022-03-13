@@ -90,3 +90,19 @@ body{
     position: relative;
     margin-left: -219px;
 }
+ 
+.info2 h2{
+    padding: 20px;
+    text-align: left;
+    padding-left: 55px;
+}
+.info2{
+    position: absolute;
+    top: 786px;
+}
+.info2 hr{
+    width: 800px;
+}
+.info2 input{
+   padding: 10px;
+}
