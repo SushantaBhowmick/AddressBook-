@@ -67,11 +67,12 @@
                     <br>
 
                     <div class="dept">
-                        <label for style="margin-left: 28px; padding: 10px;" class="gender" >Select Your Department</label>
+                        <label for style="margin-left: 28px; padding: 10px;" class="gender">Select Your
+                            Department</label>
                         <select name="department">
                             <option value="none" selected>Department</option>
                             <option value="male">Computer Science</option>
-                            <option value="female">Mechanical</option>
+                            <option value="male">Mechanical</option>
                             <option value="other">Electrical</option>
                             <option value="other">Civil</option>
                             <option value="other">Automobile</option>
@@ -112,21 +113,116 @@
                     <input type="text" placeholder="Enter your District name">
                     <label for="">Zip Code</label>
                     <input type="text" placeholder="Enter your Zip Code">
+
+                    <!-- Education Qualification -->
+                    <div class="education_qualification">
+                        <hr>
+                        <h2>Education Qualification</h2>
+                        <hr>
+                        <br><br>
+                        <div class="secondary">
+                            <label for="">Secondary </label>
+                            <input type="text" placeholder="Enter your  Marks">
+                            <input type="text" placeholder="Enter your Percentage">
+                            <input type="text" placeholder="Enter your Passing year">
+                            <br>
+                            <br>
+                            <label for="">Higher Secondary</label>
+                            <input type="text" placeholder="Enter your  Marks">
+                            <input type="text" placeholder="Enter your Percentage">
+                            <input type="text" placeholder="Enter your Passing year">
+                            <br>
+                            <br>
+                            <label for="">Which exam you are qualified:</label>
+                            <select name="" id="Exam">
+                                <option value="" selected>Exam</option>
+                                <option value="">Jexpo</option>
+                                <option value="">Voclet</option>
+                            </select>
+
+                            <!-- <label for="">Privious Semesters Marks</label>.
+                            <br>
+                            <br>
+                            <label for="">1st <input type="text"></label> -->
+                        </div>
+
+                        <!-- Domain of Job -->
+                        <br><br>
+
+                        <div class="job">
+                            <hr>
+                            <h2>Domain Of Job</h2>
+                            <hr>
+                            <br><br>
+                            <div class="get_job">
+                            <label for="">You Want to get a job: </label>
+                            <input type="radio" name="yes_no" checked>Yes</input>
+                            <input type="radio" name="yes_no">No</input>
+                        </div>
+                            <br><br>
+                            <label for="">Category of Job:</label>
+                            <input type="text">
+                            
+                            <br><br>
+                            <div class="freshers">  
+                            <label for="">Freshers :</label>    
+                            <input type="radio" name="yes_noo" checked>Yes</input>
+                            <input type="radio" name="yes_noo">No</input>
+                        </div>
+                        
+                            <br><br>
+                            <div class="experience">
+                            <label for="">Experience :</label>
+                            <textarea name="" id="" cols="50" rows="6" width="" placeholder="You have any experience?"></textarea><br><br>
+                            </div>
+                        </div>
+
+                        <!-- password -->
+                        <div class="password">
+                            <hr>
+                            <h2>Password</h2>
+                            <hr>
+                            <br><br>
+                            <label for="username">Username:</label>
+                            <input type="text" placeholder="sushanta1234">
+                            <br><br>
+                            <label for="">Enter a new password :</label>
+                            <input type="password" placeholder="miniimum 8 character must" name="password" minlength="8" required >
+                            <br><br>
+                            <label for="">Confirm password :</label>
+                            <input type="password" placeholder="Confirm password">
+                        </div>
+                        
+                        <div class="submit">
+                            <a href="" >Submit</a>
+                        </div>
+                    </div>
+
+
+                    
                 </div>
-            </div>
 
-            <div class="info3">
-                <hr>
-                <h2>Education Qualification</h2>
-                <hr>
-            </div>
 
-            
-        </div>
+
+
+
+
+
+            </div>
 
 
 
     </section>
+
+    <script>
+        const warn = document.querySelector('.submit');
+        warn.addEventListener("click", warning);
+        function warning(){
+       alert('Submitted succesfully!')  ;
+           
+        }
+
+    </script>
 </body>
 <!-- <script src="register.js"></script> -->
 

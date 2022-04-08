@@ -6,15 +6,16 @@
 body{
     min-height: 100vh;
     width:100% ;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url('/images/bg/bg2.jpg');
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url('/frontend/images/bg/bg2.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
+
 #main{
     width: 1360px;
-    height:2000px;
+    height:2200px;
     margin: auto;
     top: 20px;
     position: relative;
@@ -107,8 +108,51 @@ body{
    padding: 10px;
 }
 
+.info2 .education_qualification{
+    position: relative;
+    top: 60px;
+}
+
+
+
+
 /* .info3 h2{
     padding: 20px;
     text-align: left;
     padding-left: 55px;
 } */
+
+.job label{
+    position: absolute;
+    left: 100px;
+}
+.job .experience label{
+    position:absolute;
+}
+.job .experience textarea{
+    margin-left: 120px;
+}
+
+.password label{
+    position: absolute;
+    left: 100px;
+}
+
+
+.submit a{
+    position: relative;
+    top: 45px;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 7px 20px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+}
+
+.submit a:hover{
+    color: white;
+    background-color: rgb(92, 83, 83);
+    
+}
