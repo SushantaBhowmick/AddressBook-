@@ -8,20 +8,20 @@ html {
 }
 body {
   min-height: 100vh;
-  background-color: rgba(221, 235, 154, 0.5);
   display: flex;
   background-image: url("/images//bg/bg1.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
   color: white;
+  background-repeat: no-repeat;
 }
 
 h1{
     position: absolute;
     top: 30px;
     left: 166px;
-    font-size: 3.5em;
+    font-size: 4.0rem;
     cursor: pointer;
 }
 
@@ -29,9 +29,10 @@ h1{
     position: absolute;
     top: 27px;
     left: 217px;
-    font-size: 1.7em;
+    font-size: 3.2rem;
     cursor: pointer;
     color: whitesmoke;
+    /* display: grid; */
 }
 
 .department{
@@ -56,9 +57,36 @@ h1{
 .department ul li a{
   padding-bottom: 10px;
   text-decoration: none;
- font-size: 1.2em;
- color: white;
+  font-size: 2.1rem;
+  color: white;
 }
 .department li{
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1169px){
+  h1{
+    position: absolute;
+    top: 30px;
+    left: 166px;
+    font-size: 4.0rem;
+    cursor: pointer;
+    display: grid;
+    float: left;
+    }
+    .department{
+      border: 2px solid gray;
+  position: absolute;
+  top: 130px;
+  left: 486px;
+  font-size: 2em;
+  padding: 80px 180px;
+  border-radius: 10px;
+  display: grid;
+    }
+}
+@media screen and (max-width: 1169px)and (min-width: 1px){
+  body{
+    background-image: url("/images//bg/bg1.jpg");
+  }
 }
