@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    width:100% ;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)),url('/frontend/images/bg/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+#main{
+    width: 1360px;
+    height:2200px;
+    margin: auto;
+    top: 20px;
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 800px;
+    margin:  0 auto 100px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header h1{
+    padding-bottom: 40px;
+    font-size: 2em;
+}
+#header h2{
+    padding: 20px;
+    text-align: left;
+    padding-left: 55px;
+}
+.info label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.info .form{
+    padding: 25px;
+
+}
+.info .form input{
+    padding: 10px;
+
+}
+.info .form1{
+    padding: 25px;
+
+}
+.info .form1 input{
+    padding: 10px;
+
+}
+.email{
+    position: absolute;
+    left: 53px;
+    padding: 5px;
+
+}
+.info .email input{
+    padding: 10px;
+}
+
+/* birthdate css */
+.container{
+    padding: 15px;
+  }
+  SELECT{
+    padding: 5px;
+  }
+  input.date{
+    width:50px;
+    padding: 5px;
+  }
+  form .contact{
+      position: relative;
+      padding-left: 30px;
+  }
+
+.bir{
+    position: relative;
+    margin-left: -48px;
+}
+
+.reg{
+    position: relative;
+    margin-left: -219px;
+}
+ 
+.info2 h2{
+    padding: 20px;
+    text-align: left;
+    padding-left: 55px;
+}
+.info2{
+    position: absolute;
+    top: 786px;
+}
+.info2 hr{
+    width: 800px;
+}
+.info2 input{
+   padding: 10px;
+}
+
+.info2 .education_qualification{
+    position: relative;
+    top: 60px;
+}
+
+
+
+
+/* .info3 h2{
+    padding: 20px;
+    text-align: left;
+    padding-left: 55px;
+} */
+
+.job label{
+    position: absolute;
+    left: 100px;
+}
+.job .experience label{
+    position:absolute;
+}
+.job .experience textarea{
+    margin-left: 120px;
+}
+
+.password label{
+    position: absolute;
+    left: 100px;
+}
+
+
+.submit a{
+    position: relative;
+    top: 45px;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 7px 20px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+}
+
+.submit a:hover{
+    color: white;
+    background-color: rgb(92, 83, 83);
+    
+}
