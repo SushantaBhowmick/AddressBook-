@@ -7,8 +7,10 @@ h3{
     color: white;
     position: relative;
     top: -50px;
-    left: 0px;
-    font-size: 25px;
+    /* left: 0px; */
+    right: 70px;
+    font-size: 1.9rem;
+    overflow: auto;
 }
 #container div button a{
     text-decoration: none;
@@ -89,5 +91,4 @@ body {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-
 
