@@ -6,15 +6,19 @@ h3{
     display: flex;
     color: white;
     position: relative;
-    top: -50px;
-    /* left: 0px; */
-    right: 70px;
     font-size: 1.9rem;
     overflow: auto;
+    padding: 15px;
+    right: 17%;
 }
 #container div button a{
     text-decoration: none;
     color: white;
+}
+
+#container{
+    position: absolute;
+    left: 40%;
 }
 
 html,
