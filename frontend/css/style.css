@@ -6,7 +6,7 @@
 .navbar {
 	background-color: rgb(54, 3, 3);
 	border-radius: 10px;
-	background-image:url('/images/bg/bg1.jpg') ;
+	background-image:url('../images/bg/bg1.jpg') ;
 	background-position: center;
     background-size: cover;
 }
@@ -48,7 +48,7 @@
 body{
     min-height: 100vh;
     width:100% ;
-    background-image:url('/images/bg/bg1.jpg') ;
+    background-image:url('../images/bg/bg1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;

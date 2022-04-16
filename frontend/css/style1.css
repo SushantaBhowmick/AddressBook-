@@ -29,7 +29,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/bg/bg1.jpg");
+    background-image: url("../images/bg/bg1.jpg");
     background-size: cover;
     position: relative;
     color: white;
