@@ -9,7 +9,7 @@ h3{
     font-size: 1.9rem;
     overflow: auto;
     padding: 15px;
-    right: 17%;
+    right: 5%;
 }
 #container div button a{
     text-decoration: none;
@@ -47,6 +47,7 @@ body {
     position: relative;
     z-index: 0;
     border-radius: 15px;
+    left: 4rem;
 }
 
 .glow-on-hover:before {
