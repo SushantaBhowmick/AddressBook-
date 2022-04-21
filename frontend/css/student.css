@@ -9,7 +9,7 @@ html {
 body {
   min-height: 100vh;
   display: flex;
-  background-image: url("/images//bg/bg1.jpg");
+  background-image: url("../images/bg/bg1.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
