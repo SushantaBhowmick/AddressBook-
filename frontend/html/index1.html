@@ -5,20 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style1.css">
-    <link rel="shortcut icon" href="../images/favicon/icon3.jpg" type="image/x-icon">
-
-    <title>ADDRESS-BOOK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style1.css">
+    <title>Addressbook</title>
 </head>
-<div id="container">
-    <div>
-        <h3>Which kind of log-in you want</h3>
-        <button class="glow-on-hover" type="button"><a href="./student.html" > STUDENTS</a></button>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="/images/favicon/logo.png" alt="Addressbook">
+            </div>
+            <li><a href="#firstsection">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Help">Help</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="search">
+            <button class="btn">&#128269</button>
+        </div>
+    </nav>
+    <section class="firstsection background" id="firstsection">
+        <div class="boxmain">
+            <div class="firsthalf">
+                <p class="textbig">Lorem ipsum dolor sit amet.</p>
+                <p class="textsmall">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ex accusamus
+                    quas rerum, excepturi molestiae!</p>
+                <div class="links">
+                    <a href="/html/student.html" class="hyperlink">Students</a>
+                    <a href="/html/faculties.html" class="hyperlink">Faculties</a>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="/images/favicon/icon3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <div id="about">
+        <section class="secondsection">
+            <div class="text">
+                <p class="textbig">Introduction</p>
+                <p class="textsmall">AddressBook@ is an Web based Application which
+                    contains both students and faculties information or a database used for
+                    storing entries called contacts. Each contact entry usually consists of a few
+                    standard fields. First off all you need to register of this after that you find
+                    anyone information, and also be a security maintain possible here. </p>
+            </div>
+            <div class="thumbnail">
+                <img src="/images/content/content1.jpg" alt="this is a image">
+            </div>
+        </section>
+        <section class="secondsection left">
+            <div class="text">
+                <p class="textbig">Project</p>
+                <p class="textsmall">AddressBook@ is a Software application to maintain not only address it's
+                    maintain any kind of college related or your career related information. This project
+                    main three component to search address one is category, Group and Category of
+                    jobs. Like if you are fresher or not, or you are waiting for a job or not.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="/images/content/content2.jpg" alt="this is a image">
+            </div>
+        </section>
+        <section class="secondsection">
+            <div class="text">
+                <p class="textbig">Scope and Objects</p>
+                <p class="textsmall">This application is built such away that it should suits for all type of
+                    AddressBook@ in
+                    future. So every effort is takes to implement this project in all type of users. Recording the
+                    information and searching made very simple in this project.</p>
+                <p class="textsmall">The main objective of this application is to automate the complete
+                    operation of the information. They need maintain hundreds of thousands of
+                    record. Also searching be very faster so they can find required details
+                    instantly.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="/images/content/content3.jpg" alt="this is a image">
+            </div>
+        </section>
     </div>
-    <div>
-        <button class="glow-on-hover" type="button"><a href="./faculties.html" >FACULTIES</a> </button>
-    </div>
-</div>
+    <footer>
+        <div class="foot">
+            <div class="footer-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.
+                </p>
+            </div>
+            <div class="footer-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.
+                </p>
+            </div>
+            <div class="footer-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.
+                </p>
+            </div>
+            <div class="footer-content">
+                <img src="/images/favicon/eiem.png" alt="logo" class="footer-logo">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

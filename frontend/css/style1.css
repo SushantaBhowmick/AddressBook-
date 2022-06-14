@@ -1,99 +1,185 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-h3{
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.logo {
     display: flex;
-    color: white;
-    position: relative;
-    font-size: 1.9rem;
-    overflow: auto;
-    padding: 15px;
-    right: 5%;
-}
-#container div button a{
-    text-decoration: none;
-    color: white;
-}
-
-#container{
-    position: absolute;
-    left: 40%;
-}
-
-html,
-body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
+    width: 20%;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/bg/bg1.jpg");
+    padding: 5px;
+}
+
+.logo img {
+    width: 45%;
+    border-radius: 70px;
+    border: 2px solid #cdc2ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 19px 39px;
+}
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list li a:hover,{
+    color: #9a9797;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding: 0px 50px;
+}
+.btn{
+    padding: 2px 3px;
+}
+
+#search {
+    border: 2px solid grey;
+    border-radius: 9px;
+    padding: 3px 10px;
+    font-size: 1rem;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/images/bg/bg3.jpg');
     background-size: cover;
-    position: relative;
+    background-blend-mode: darken;
+}
+
+/* section */
+
+.firstsection {
+    height: 100vh;
+}
+
+.boxmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
     color: white;
 }
 
-.glow-on-hover {
-    width: 220px;
-    margin-bottom: 10px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: rgb(223, 211, 211);
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 200px;
+    border: 3px solid #d8d9eab8;
+    border-radius: 99px;
+    opacity: .9;
+    display: block;
+    margin: auto;
+}
+
+.textbig {
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.textsmall {
+    font-size: 1rem;
+    padding: 11px 0px;
+}
+
+.links {
+    opacity: .9;
+    padding: 20px 0px;
+}
+
+.hyperlink {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+.hyperlink:hover {
+    color: rgba(49, 48, 48, 0.839);
+    background-color: white;
     cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 15px;
-    left: 4rem;
+}
+#about{
+    margin-top: 100px;
+}
+.secondsection{
+    display: flex;
+    padding: 40px 10px;
+    max-width: 70%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+.thumbnail{
+    width: 40%;
+    padding: 0px 30px;
 }
-
-.glow-on-hover:active {
-    color: rgb(234, 236, 216)
+.thumbnail img {
+    width: 232px;
+    height: 179px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    border-radius: 24px;
 }
-
-.glow-on-hover:active:after {
-    background: transparent;
+.left{
+    flex-direction: row-reverse;
 }
-
-.glow-on-hover:hover:before {
-    opacity: 1;
+footer{
+    background-color: #b6b6b6;
+    height: 300px;
 }
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgb(66, 55, 55);
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+.foot{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
 }
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+.footer-logo{
+    width: 200px;
 }
-

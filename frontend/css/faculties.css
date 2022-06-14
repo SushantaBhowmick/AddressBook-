@@ -1,90 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html {
-    font-size: 62.5%;
-  }
-  body {
-    min-height: 100vh;
-    background-color: rgba(226, 226, 191, 0.5);
-    display: flex;
-  }
-  body{
-    min-height: 100vh;
-    width:100% ;
-    background-image:url('../images/bg/bg1.jpg') ;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.logo {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
-  h1{
-      position: absolute;
-      top: 30px;
-      left: 166px;
-      font-size: 3.5em;
-      cursor: pointer;
-  }
+.logo img {
+  width: 45%;
+  border-radius: 70px;
+  border: 2px solid #cdc2ff;
+}
 
-  .department h2{
-      position: absolute;
-      top: 27px;
-      left: 217px;
-      font-size: 1.7em;
-      cursor: pointer;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
 
-  .department{
-    border: 2px solid gray;
-    position: absolute;
-    top: 130px;
-    left: 486px;
-    font-size: 2em;
-    padding: 80px 180px;
-    border-radius: 10px;
-  }
-  .department ul li{
-    padding: 10px 69px;
-    border: 2px solid black;
-    border-radius: 27px;
-    list-style: none;
-    cursor: pointer;
-  }
-  .department ul li a{
-    padding-bottom: 10px;
-    text-decoration: none;
-   font-size: 1.2em;
-   color: whitesmoke;
-  }
-  .department li{
-    padding-bottom: 20px;
-  }
-  .container{
-    position: absolute;
-    top: 30px;
-    right: 58px;
-    border: 2px solid green;
-    padding: 11px 31px;
-    border-radius: 25px;
-    background-color: green;
-    cursor: pointer;
-  }
+.nav-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
 
-.container a{
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 19px 39px;
+}
+.nav-list li a {
   color: white;
-  font-size: 1.4em;
   text-decoration: none;
+  font-size: 18px;
 }
 
-.container:hover{
-  background-color: gray;
+.nav-list li a:hover{
+  color: #9a9797;
 }
 
-.container a:hover{
-  color: black;
-
+.rightnav {
+  width: 50%;
+  text-align: right;
+  padding: 0px 50px;
+}
+.btn{
+  padding: 2px 3px;
 }
 
+#search {
+  border: 2px solid grey;
+  border-radius: 9px;
+  padding: 3px 10px;
+  font-size: 1rem;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url('/images/bg/bg3.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.section{
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.section h1{
+  font-size: 70px;
+  padding: 50px 0 30px 0;
+}
+.section h4{
+  font-size:30px;
+}
+
+.links {
+  height: 500px;
+  opacity: .9;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.links p{
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.hyperlink {
+  background: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.hyperlink:hover{
+  color: #9a9797;
+  cursor: pointer;
+}
