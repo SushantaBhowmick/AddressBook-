@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo img {
+    width: 45%;
+    border-radius: 70px;
+    border: 2px solid #cdc2ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 19px 39px;
+}
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list li a:hover{
+    color: #9a9797;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding: 0px 50px;
+}
+.btn{
+    padding: 2px 3px;
+}
+
+#search {
+    border: 2px solid grey;
+    border-radius: 9px;
+    padding: 3px 10px;
+    font-size: 1rem;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/images/bg/bg3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* section */
+.firstsection{
+    color: white;
+    height: 90vh;
+}
+.boxmain{
+max-width: 85%;
+margin: auto;
+}
+.heading h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0 0 0 ;
+}
+.heading p{
+    font-size: 25px;
+    text-align: center;
+}
+.content{
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 360px;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input,textarea{
+    border: 2px solid #ffffff81;
+    width: 475px;
+    padding: 7px 5px;
+    margin: 10px 0;
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+form textarea{
+    font-weight: 600;
+    font-size: 13px;
+}
+.text{
+    height:190px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.big-btn{
+    color: #ffffff81;
+    border: 2px solid #ffffff81;
+    width: 175px;
+    padding: 7px 0;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 10px;
+}
+.big-btn:hover{
+    cursor: pointer;
+    color: white;
+    border: 2px solid #ffffff;
+}

@@ -48,7 +48,7 @@ html{
     font-size: 18px;
 }
 
-.nav-list li a:hover,{
+.nav-list li a:hover{
     color: #9a9797;
 }
 
@@ -92,9 +92,17 @@ html{
 
 .firsthalf {
     width: 80%;
+    height: 175px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.firsthalf h1{
+   font-size: 50px;
+}
+.firsthalf p{
+   font-size: 25px;
 }
 
 .secondhalf {
@@ -109,18 +117,19 @@ html{
     display: block;
     margin: auto;
 }
-
-.textbig {
-    font-size: 2.5rem;
-    font-weight: bold; 
+.text-big{
+    font-size: 45px;  
 }
-
-.textsmall {
-    font-size: 1rem;
-    padding: 11px 0px;
-}
-
-.links {
+.text-small{
+     font-size: 15px;
+     line-height: 25px;
+     font-weight: 600;
+ }
+.text-ultra-small{
+     font-size: 15px;
+     line-height: 20px;
+ }
+.links{
     opacity: .9;
     padding: 20px 0px;
 }
@@ -141,7 +150,12 @@ html{
     cursor: pointer;
 }
 #about{
-    margin-top: 100px;
+    margin: 50px 0;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 .secondsection{
     display: flex;
@@ -158,9 +172,7 @@ html{
     padding: 0px 30px;
 }
 .thumbnail img {
-    width: 232px;
-    height: 179px;
-    border: 2px solid black;
+    width: 200px;
     display: block;
     margin: auto;
     border-radius: 24px;
@@ -169,17 +181,38 @@ html{
     flex-direction: row-reverse;
 }
 footer{
-    background-color: #b6b6b6;
     height: 300px;
-}
+    color: white;
+} 
 .foot{
-    max-width: 80%;
+    max-width: 70%;
+    height: 300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
 }
-.footer-logo{
-    width: 200px;
+.foot-container{
+    width: 250px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-container img{
+    width: 150px;
+}
+.center{
+    text-align: center;
+}
+.footer-list li{
+    list-style: none;
+    padding: 10px 0;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: white;  
+}
+.footer-list li a:hover{
+    color: #9a9797;
 }
