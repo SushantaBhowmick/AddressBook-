@@ -202,6 +202,11 @@ footer{
 .foot-container img{
     width: 150px;
 }
+.foot-container .center a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
 .center{
     text-align: center;
 }
